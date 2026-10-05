@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  weather_bot:
+    build: .
+    container_name: telegram_weather_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./weather_bot.db:/app/weather_bot.db
+    environment:
+      - TZ=Europe/Moscow
