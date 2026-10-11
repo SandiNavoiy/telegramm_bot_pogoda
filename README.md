@@ -129,7 +129,7 @@ cp .env.example .env
 
 ```env
 # Обязательно: Токен вашего Telegram бота от @BotFather
-BOT_TOKEN=1234567890:ABCdefGhIJKlmNoPQRsTUVwxyZ
+BOT_TOKEN=
 
 # Опционально: Ключ OpenWeatherMap (оставьте пустым для Open-Meteo)
 OPENWEATHER_API_KEY=
