@@ -270,7 +270,7 @@ After=network.target
 Type=simple
 User=ubuntu
 WorkingDirectory=/home/ubuntu/telegramm_bot_pogoda
-ExecStart=/home/ubuntu/telegramm_bot_pogoda/.venv/bin/python main.py
+ExecStart=/home/ubuntu/telegramm_bot_pogoda/venv/bin/python main.py
 Restart=always
 RestartSec=10
 
